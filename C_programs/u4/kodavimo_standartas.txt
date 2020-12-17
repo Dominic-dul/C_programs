@@ -1,0 +1,41 @@
+Kodavimo standartas 4 programai:
+1. Kintamųjų vardai negali prasidėti skaičiumi;
+    -Blogas pavyzdys:
+        int 5number
+    -Geras pavyzdys:
+        int number5
+2. Jeigu kintamojo pavadinimas susideda iš kelių žodžių, visi žodžiai, išskyrus pirmąjį, turi prasidėti didžiosiomis raidėmis(CamelCase);
+    -Blogas pavyzdys:
+        int positiveinteger
+    -Geras pavyzdys:
+        int positiveInteger
+3. Visų funkcijų, išskyrus main, pavadinimai prasideda didžiosiomis raidėmis. Taip pat yra pritaikomas CamelCase standartas;
+    -Blogas pavyzdys:
+        void functioncountingdigits
+    -Geras pavyzdys:
+        void functioncountingdigits
+4. Visi kintamieji turi prasmingus vardus
+    -Blogas pavyzdys:
+        int x
+    -Geras pavyzyds:
+        int digitLenght
+5. Ciklų ir sąlygų veiksmai yra aprašomi riestiniuose skliaustuose, nepriklausomai, ar viduje yra vienas, ar šimtas veiksmų:
+    -Blogas pavyzdys:
+        while (number > 5)
+            printf("gerai\n");
+    -Geras pavyzdys:
+        while (number > 5)
+        {
+            printf("gerai\n);
+        }
+6. Komentarai yra rašomi tik būtiniausais atvejais, kodo patikslinimo reikmėms, tačiau jeigu nebūtina, stengtis komentarų nerašyti:
+    -Blogas pavyzdys:
+        i++; //prie i prideda viena
+        x = x + 5 //prie x prideda 5
+        while (x > 5)//sukasi, kol x yra daugiau uz 5
+    -Geras pavyzdys:
+    //funkcija grazina teigiama skaiciu
+    (x < 0) -x : x;
+7. Kodas rašomas tvarkingai struktūrizuotas, naudojami tab, tarpai ir kitos priemonės, kurios padaro kodą skaitomesnį ir suprantamesnį;
+	-Atskiros loginės dalys yra paslenkamos, kad būtų lengviau suprasti kodą;
+8. Stengiamasi apgalvoti visus ribinius variantus, kodas turi būti atsparus klaidoms;
